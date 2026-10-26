@@ -32,8 +32,8 @@ mv main.py analysis.py                   # (Windows PowerShell: Rename-Item main
 ## How to run
 
 ```bash
-git clone <https://github.com/datawithian/pesa_pulse_customer_analysis>
-cd <pesa_pulse_customer_analysis>
+git clone https://github.com/datawithian/pesa_pulse_customer_analysis
+cd pesa_pulse_customer_analysis
 uv sync                      # builds the environment from uv.lock
 uv run python analysis.py    # runs the analysis
 ```
