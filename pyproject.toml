@@ -1,0 +1,21 @@
+[project]
+name = "pesa-pulse-customer-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Your Name", email = "githuian94@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.0",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+pesa-pulse-customer-analysis = "pesa_pulse_customer_analysis:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
