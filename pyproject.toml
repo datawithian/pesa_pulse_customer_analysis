@@ -1,10 +1,10 @@
 [project]
 name = "pesa-pulse-customer-analysis"
 version = "0.1.0"
-description = "Add your description here"
+description = "Python analysis of a customer directory fetched from an API: explores nested JSON, counts customers by city and email domain with sets and dicts, cross-checks with pandas, and charts the results."
 readme = "README.md"
 authors = [
-    { name = "Your Name", email = "githuian94@gmail.com" }
+    { name = "Ian", email = "githuian94@gmail.com" }
 ]
 requires-python = ">=3.14"
 dependencies = [
