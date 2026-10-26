@@ -17,7 +17,7 @@ This project pulls the data from `https://jsonplaceholder.typicode.com/users`, e
 
 ## Project setup (uv)
 
-The project is managed with [uv](https://docs.astral.sh/uv/). These are the steps used to create it:
+The project uses [uv](https://docs.astral.sh/uv/). These are the steps used to create it:
 
 ```bash
 mkdir pesa_pulse_customer_analysis
@@ -32,8 +32,8 @@ mv main.py analysis.py                   # (Windows PowerShell: Rename-Item main
 ## How to run
 
 ```bash
-git clone https://github.com/datawithian/pesa_pulse_customer_analysis
-cd pesa_pulse_customer_analysis
+git clone `https://github.com/datawithian/pesa_pulse_customer_analysis`
+cd `pesa_pulse_customer_analysis`
 uv sync                      # builds the environment from uv.lock
 uv run python analysis.py    # runs the analysis
 ```
